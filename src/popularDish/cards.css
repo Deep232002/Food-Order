@@ -1,0 +1,139 @@
+.card{
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.card .green{
+    color: green;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.card .head{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.card-items{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+}
+
+.card-items .coloum{
+  position: relative;
+   width:32%;
+    background-color: white;
+    padding: 12px;
+    overflow: hidden;
+}
+ .card-items .coloum .heart,
+.card-items .coloum .eye{
+    position: absolute;
+     font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.463);
+    color:black;
+    border-radius: 100%;
+    transition: .2s ease;
+}
+
+ .card-items .coloum .heart{
+    right:-100% ;
+    
+} 
+ .card-items .coloum .eye{
+    left:-100%;
+    
+} 
+
+.card-items .coloum .heart:hover,
+.card-items .coloum .eye:hover{
+    background-color: green;
+    color: white;
+}
+
+.card-items .coloum:hover .eye
+{
+    left: 10px;
+    display: inline-block;
+}
+.card-items .coloum:hover .heart
+{
+    right: 10px;
+    display: inline-block;
+} 
+
+
+.coloum p{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:20px ;
+    margin-bottom: 4px;
+}
+.star{
+    color: green;
+    padding: 0 0 10px 0;
+}
+.coloum .prise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.coloum .prise button{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.coloum .prise button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:953px){
+    .card-items{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:785px){
+    .card-items .coloum{
+        width: 48%;
+    }
+    .coloum .prise button{
+        margin-top: 4px;
+    }
+}
+
+@media screen and (max-width:631px){
+    .coloum img{
+        height: 120px;
+    }
+    .card-items .head, .green{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:520px){
+    .card-items .coloum{
+        width: 80%;
+    }
+}
+
