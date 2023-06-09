@@ -1,0 +1,42 @@
+
+.mainContainer{
+    padding: 20px;
+    margin-top: 10px;
+}
+.container{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    
+}
+.container .box{
+  width: 25%;
+}
+.container p{
+    margin-bottom: 5px;
+}
+.container .box .heading{
+    font-size: 22px;
+    font-weight: bold;
+}
+.mainContainer .copyright{
+    text-align: center;
+    margin-top: 15px;
+}
+.mainContainer .copyright span{
+    color: green;
+}
+@media screen and (max-width:788px) {
+    .container{
+        width: 95%;
+    }
+}
+@media screen and (max-width:634px) {
+    .container{
+        flex-direction: column;
+    }
+    .container .box{
+        width: 100%;
+    }
+}

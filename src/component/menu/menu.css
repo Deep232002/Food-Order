@@ -1,0 +1,198 @@
+.backgroundS{
+  
+    background-image: url('./menuimages/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.color{
+    background-color:rgba(0, 0, 0, 0.558);
+}
+.cardbox{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+    /* padding: 10px 0; */
+}
+.cardbox .green{
+    color: rgb(37, 238, 37);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.cardbox .head{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.card-items{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+}
+
+.card-items .coloum{
+  position: relative;
+   width:32%;
+    background-color: rgb(120, 117, 117);
+    padding: 12px;
+    overflow: hidden;
+}
+ .card-items .coloum .heartattack{
+    position: absolute;
+    right: 20px;
+    top:20px;
+     font-size: 20px;
+    padding: 3px 8px;
+    background-color:white;
+    color:black;
+    border-radius: 100%;
+   transform: 0.4s ease;
+}
+.card-items .coloum .heartattack:hover{
+  color: red;
+}
+.stars{
+    text-align: left;
+    color: green;
+}
+.coloum .dish-name{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.coloum .describe{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 5px 0;
+    
+}
+
+.coloum .prize{
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    gap: 14px;
+}
+.prize .button{
+    padding: 4px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.coloum .prize .button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1240px){
+    .coloum #image{
+        width: 289px;
+    }
+}
+@media screen and (max-width:1185px){
+    .coloum #image{
+        width: 280px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:1154px){
+    .coloum #image{
+        width: 256px;
+        height: 164px;
+    }
+}
+@media screen and (max-width:999px){
+    .coloum #image{
+        width: 232px;
+        height: 143px;
+    }
+}
+@media screen and (max-width:864px){
+    .coloum #image{
+        width: 224px;
+        height: 143px;
+    }
+}
+@media screen and (max-width:784px){
+    .coloum #image{
+        width: 313px;
+        height: 169px;
+    }
+}
+@media screen and (max-width:740px){
+    .coloum #image{
+        width: 268px;
+        height: 159px;
+    
+    }
+}
+@media screen and (max-width:636px){
+    .coloum #image{
+        width: 244px;
+        height: 142px;
+    
+    }
+}
+@media screen and (max-width:518px){
+    .coloum #image{
+        width: 337px;
+        height: 197px;
+    }
+}
+@media screen and (max-width:450px){
+    .coloum #image{
+        width: 280px;
+        height: 170px;
+    }
+}
+@media screen and (max-width:389px){
+    .coloum #image{
+        width: 238px;
+    height: 155px;
+    }
+}
+@media screen and (max-width:354px){
+    .coloum #image{
+        width: 214px;
+    height: 132px;
+    }
+}
+@media screen and (max-width:310px){
+    .coloum #image{
+        width: 194px;
+        height: 122px;
+    }
+}
+@media screen and (max-width:310px){
+    .card-items .coloum{
+        min-width: 90%;
+    }
+}
+@media screen and (max-width:310px){
+    .card-items .coloum{
+        min-width: 95%;
+    }
+}
+
+
+
+
+

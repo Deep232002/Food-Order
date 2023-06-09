@@ -1,0 +1,69 @@
+import React from 'react'
+import item from './reviewitem'
+import { FaQuoteLeft,FaQuoteRight } from 'react-icons/fa';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import "./styles.css";
+import style from "./review.module.css"
+
+import Order from '../order/Order';
+// import required modules
+import { Pagination } from "swiper";
+
+export default function Riview() {
+  return (
+    <div>
+      <section className={style.reviewcontainer}>
+        <p className={style.green}>
+            Customer's review
+        </p>
+        <p className={style.head}>WHAT THEY SAY</p>
+    
+        <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className={style.mySwiper}
+      >
+        {
+          item.map((element)=>{
+            return(
+              
+          
+        <SwiperSlide className={style.eachslidder} >
+          <div className={style.box}>
+            <div className={style.review}>
+              <div className={style.reviewpara}>
+              <p className={style.paragraph}>
+                <FaQuoteLeft id={style.leftcomma}/>
+                <p>{element.para}
+                </p><FaQuoteRight id={style.rightcomma}/>
+                
+              </p>
+              </div>  </div>
+              <div className={style.clientimage}><div className={style.image}>{element.image}</div>
+              <div className={style.name}>
+                <p className={style.dark}>{element.name}</p>
+               <p>{element.profassion}</p>
+              </div>
+              </div>
+          
+          </div>
+        </SwiperSlide>
+          )
+        })
+      }
+      </Swiper>
+    
+      </section>
+      <Order/>
+    </div>
+  )
+}

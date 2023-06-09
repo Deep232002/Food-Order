@@ -1,0 +1,138 @@
+section{
+    padding: 10px 0;
+}
+.centerr{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.headd{
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.mainbox{
+    display: flex;
+    padding: 12px 60px;
+}
+.one,.two{
+    width: 50%;
+}
+.one{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+.one img{
+    box-shadow: -4px -4px 7px black;
+}
+.two .twohead{
+    font-size: 25px;
+   font-weight: 700;
+}
+.two .smallbox{
+ display: flex;
+ justify-content: space-between;
+}
+.two .smallbox .icon{
+    color: green;
+    margin-right: 3px;
+}
+.two .smallbox .boxone{
+    background-color: rgb(211, 213, 213);
+    padding: 10px 30px;
+    border-radius: 5px;
+    transform: 0.3s ease;
+}
+.two .smallbox .boxone:hover{
+    background-color: red;
+    color: white;
+}
+.two button{
+    padding: 3px 9px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    transform: .3s ease;
+}
+.two button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:1168px){
+    .two .smallbox .boxone{
+        padding:5px 16px;
+    }
+    .one img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:1068px){
+    .two .smallbox .boxone{
+        padding:5px 8px;
+    }
+    .one img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:966px){
+   
+    .one img{
+        width: 350px;
+    }
+}
+@media screen and (max-width:900px){
+    .two .smallbox .boxone{
+        padding:3px 5px;
+    }
+    .mainbox{
+        padding: 12px 20px;
+    }
+}
+@media screen and (max-width:785px){
+    .mainbox{
+        flex-direction: column;
+    }
+    .one{
+        
+        justify-content: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .one img{
+        width: 400px;
+    }
+    .two{
+        width: 100%;
+    }
+    .two .smallbox{
+        justify-content: start;
+    }
+    .two .smallbox .boxone{
+        margin: 0 5px;
+    }
+    .two .twohead{
+        font-size: 19px;
+    font-weight: 500;
+    }
+}
+@media screen and (max-width:455px){
+   
+    .one img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:348px){
+   
+    .one img{
+        width: 250px;
+    }
+}

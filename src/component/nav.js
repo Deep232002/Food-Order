@@ -8,6 +8,7 @@ export default function Navbar() {
   const [act, setact] = useState("");
   const [searchAct, setsearchAct] = useState("");
   const [linkColor,changeLink]=useState('home') 
+
   const iconClose = () => {
     setcls("fa-solid fa-bars");
     setact("");
@@ -35,12 +36,12 @@ export default function Navbar() {
     setsearchAct("");
   };
 
-  const changeColor=(add)=>{
-  // console.log(add)
-  changeLink(add);
-  const currentLocation = window.location.href;
-  console.log(currentLocation);
+  const ChangeColor=(add)=>{
+    console.log('hii')
+    console.log(add)
+    changeLink(add);
   }
+
   return (
     <div>
       <nav className="navbar">
@@ -49,56 +50,62 @@ export default function Navbar() {
           Resto.
         </div>
         <div className={`menu ${act}`}>
-          <li  className={ ` ${"home"==linkColor ? "activate":''}`}>
+          <li>
             <Link  activeClass="active"
-            onClick={()=>changeColor('home')}
+            onClink={()=>ChangeColor('home')}
+            className={`${linkColor}=='home' ? 'activate':''`}
               to="home"
-             
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>Home</Link>
           </li>
-          <li className={ ` ${"Dishes"==linkColor ? "activate":''}`}>
+          <li>
             <Link  activeClass="active"
              to="Dishes"
-             onClick={()=>changeColor('Dishes')}
+             onClink={()=>{ChangeColor('Dishes')}}
+             className={`${linkColor}=='Dishes' ? 'activate':''`}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500} >Dishes</Link>
           </li>
-          <li className={ ` ${"About"==linkColor ? "activate":''}`}>
+          <li>
             <Link activeClass="active"
              to="About"
-             onClick={()=>changeColor('About')}
+             onClink={()=>{ChangeColor('About')}}
+             className={`${linkColor}=='About' ? 'activate':''`}
+             
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>About</Link>
           </li>
-          <li className={ ` ${"Menu"==linkColor ? "activate":''}`}>
+          <li>
             <Link activeClass="active"
              to="Menu"
-             onClick={()=>changeColor('Menu')}
+             onClink={()=>{ChangeColor('Menu')}}
+             className={`'Menu'== ${linkColor} ? 'activate':''`}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>Menu</Link>
           </li>
-          <li className={ ` ${"Review"==linkColor ? "activate":''}`}>
+          <li>
             <Link activeClass="active"
              to="Review"
-             onClick={()=>changeColor('Review')}
+             onClink={()=>{ChangeColor('Review')}}
+             className={`'Review'== ${linkColor} ? 'activate':''`}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}>Review</Link>
           </li>
-          <li className={ ` ${"Order"==linkColor ? "activate":''}`}>
+          <li>
             <Link activeClass="active"
              to="Order"
-             onClick={()=>changeColor('Order')}
+             onClink={()=>{ChangeColor('Order')}}
+             className={`'Order'== ${linkColor} ? 'activate':''`}
               spy={true}
               smooth={true}
               offset={-70}

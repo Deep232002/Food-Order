@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import Items from '../allcardsItem/Items'
 import './cards.css'
+
+
 import {AiFillStar,AiOutlineEye,AiOutlineHeart} from 'react-icons/ai'
 import {FaStarHalf} from 'react-icons/fa'
 export default function Cards() {
   const [item,setitem]=useState(Items)
   return (
-    <div>
+    <>
+    <section id='Dishes'>
+    <div className='backgroundS' >
       <div className="card">
         <p className='green'>Our Dishes</p>
         <p className="head">POPULAR DISHES</p>
@@ -32,14 +36,12 @@ export default function Cards() {
           )
         })
        }
-                
-
-               
-
-               
             
         </div>
       </div>
     </div>
+    </section>
+      
+    </>
   )
 }

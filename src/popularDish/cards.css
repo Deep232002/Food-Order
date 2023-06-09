@@ -1,16 +1,23 @@
+.backgroundS{
+    background-image: url('./back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .card{
     text-align: center;
     width: 100%;
-    background-color: antiquewhite;
+    background-color:rgba(0, 0, 0, 0.558);
+    padding: 10px 0;
 }
 .card .green{
-    color: green;
+    color: rgb(37, 238, 37);
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4px;
 }
 .card .head{
+    color: white;
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
