@@ -113,8 +113,9 @@
 @media screen and (max-width:400px) {
     .img img{
      height: 200px;
+     margin-top: 15%;
     }
- 
+   
  }
-
+ 
 
