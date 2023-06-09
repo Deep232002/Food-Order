@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Food-Order/static/css/main.4ffc5295.css",
+    "main.js": "/Food-Order/static/js/main.94017f6c.js",
+    "static/js/787.9da6907c.chunk.js": "/Food-Order/static/js/787.9da6907c.chunk.js",
+    "static/media/three.jpg": "/Food-Order/static/media/three.41e4fe623e920299dfe6.jpg",
+    "static/media/chicken2.jpg": "/Food-Order/static/media/chicken2.07dadc20bbb45181d83e.jpg",
+    "static/media/menu4.jpg": "/Food-Order/static/media/menu4.522a7f630d44eee4955d.jpg",
+    "static/media/pizza2.png": "/Food-Order/static/media/pizza2.175fc2079efd7676369f.png",
+    "static/media/noodles.jpg": "/Food-Order/static/media/noodles.c6fabf8bc3e352524209.jpg",
+    "static/media/image5.png": "/Food-Order/static/media/image5.870ef2ec37e9242bd809.png",
+    "static/media/menu2.jpg": "/Food-Order/static/media/menu2.fe20f467582998a9558b.jpg",
+    "static/media/back.jpg": "/Food-Order/static/media/back.f1d34a93a5ef00099253.jpg",
+    "static/media/two.jpg": "/Food-Order/static/media/two.6121faa1e22e538ec01c.jpg",
+    "static/media/One.jpg": "/Food-Order/static/media/One.4b7f3348bf181afdbfde.jpg",
+    "static/media/chicken.jpg": "/Food-Order/static/media/chicken.f18c8bc241395c8d5b6c.jpg",
+    "static/media/pizza.png": "/Food-Order/static/media/pizza.d08db45f8333dbed5999.png",
+    "static/media/image1.jpg.png": "/Food-Order/static/media/image1.jpg.70f7aef37396f8fc94d7.png",
+    "static/media/image6.png": "/Food-Order/static/media/image6.2c5d43d5b8f576541f01.png",
+    "static/media/menu1.jpg": "/Food-Order/static/media/menu1.4d722319b6522afbacb6.jpg",
+    "static/media/menu3.jpg": "/Food-Order/static/media/menu3.2563514ea2c571309621.jpg",
+    "static/media/image3.jpg": "/Food-Order/static/media/image3.a636764672149e13cd81.jpg",
+    "static/media/imagei.jpg": "/Food-Order/static/media/imagei.5d2fcfef70943d68fe80.jpg",
+    "static/media/image9.webp": "/Food-Order/static/media/image9.d1ae99ab39941efdf2df.webp",
+    "static/media/image2.jpg": "/Food-Order/static/media/image2.89b77ca91a29ddd922fb.jpg",
+    "static/media/image8.jpg": "/Food-Order/static/media/image8.e7e8c1c77dc3d484c483.jpg",
+    "static/media/image7.jpg": "/Food-Order/static/media/image7.6de3f11bd6210b6dc625.jpg",
+    "static/media/image4.jpg": "/Food-Order/static/media/image4.392a2b2f68c270609568.jpg",
+    "static/media/about.jpg": "/Food-Order/static/media/about.9a8b3425113282c7db73.jpg",
+    "index.html": "/Food-Order/index.html",
+    "main.4ffc5295.css.map": "/Food-Order/static/css/main.4ffc5295.css.map",
+    "main.94017f6c.js.map": "/Food-Order/static/js/main.94017f6c.js.map",
+    "787.9da6907c.chunk.js.map": "/Food-Order/static/js/787.9da6907c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ffc5295.css",
+    "static/js/main.94017f6c.js"
+  ]
+}
